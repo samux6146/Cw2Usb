@@ -1,5 +1,5 @@
 # Cw2Usb
-A small adaptor based on an RP2040-Zero micro controller board, to connect a cw (morse) key to a computer.
+A small adaptor based on an RP2040-Zero microcontroller board, to connect a cw (morse) key to a computer.
 
 <img src="/Images/setup.png" width="50%" height="50%">
 
