@@ -55,3 +55,6 @@ Learning cw is not an easy task, this adaptor enables you to train with friends 
 ## Features
 1. Usb drive automatically disabled on boot
 2. Booting up the microcontroller with the dot pressed on the cw key mounts the usb drive for updates
+
+## Troubleshooting
+If the pins / cable / key is acting as a touch sensor connect the common pin (pin 11) to ground with a wire.
