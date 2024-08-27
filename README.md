@@ -1,5 +1,6 @@
 # Cw2Usb
 A small adaptor based on an RP2040-Zero microcontroller board, to connect a cw (morse) key to a computer.
+Supports both paddles and straight keys without any configuration!
 
 <img src="/Images/setup.png" width="50%" height="50%">
 
@@ -48,13 +49,11 @@ Learning cw is not an easy task, this adaptor enables you to train with friends 
     4. Reset the microcontroller by pressing the RESET button
 3. Installing the custom Code
     1. Download the [Cw2Usb](https://github.com/samux6146/Cw2Usb) repository
-    2. Copy the boot.py and code.py file to the root of the microcontroller's usb drive
+    2. Copy the boot.py, code.py and keymap.py file to the root of the microcontroller's usb drive
     3. Reset the microcontroller by pressing the RESET button
 4. You are done!
 
 ## Features
-1. Usb drive automatically disabled on boot
-2. Booting up the microcontroller with the dot pressed on the cw key mounts the usb drive for updates
-
-## Troubleshooting
-If the pins / cable / key is acting as a touch sensor connect the common pin (pin 11) to ground with a wire.
+1. Booting up the microcontroller with a straight key connected automaticly changes keymap (booting with the dash paddle pressed does the same)
+2. Usb drive automatically disabled on boot
+3. Booting up the microcontroller with the dot pressed on the cw key mounts the usb drive for updates
