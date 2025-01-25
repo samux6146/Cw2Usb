@@ -10,7 +10,7 @@ Supports both paddles and straight keys without any configuration!
 
 
 # Why?
-Learning cw is not an easy task, this adaptor enables you to train with friends or random pepole online or with [Morse-It](https://apps.apple.com/it/app/morse-it/id284942940) on iphone and ipad ([Lightning adaptor](https://www.apple.com/it/shop/product/MD821ZM/A/adattatore-per-fotocamere-da-lightning-a-usb) required on lightning devices)
+Learning cw is not an easy task, this adaptor enables you to train with friends or random pepole online or with the [Morse-It](https://apps.apple.com/it/app/morse-it/id284942940) app on iphone and ipad ([Lightning adaptor](https://www.apple.com/it/shop/product/MD821ZM/A/adattatore-per-fotocamere-da-lightning-a-usb) required on lightning devices)
 
 <img src="/Images/demo.gif" width="50%" height="50%">
 
@@ -40,12 +40,12 @@ Learning cw is not an easy task, this adaptor enables you to train with friends 
 ## Setup
 1. Installing CircuitPython
     1. Download [CircuitPython](https://circuitpython.org/downloads)
-    2. Plug the microcontroller in while holding down the boot select button to enter bootloader mod
+    2. Plug the microcontroller in while holding down the boot select button to enter bootloader mode
     3. Drag the .UF2 file to the root of the microcontroller's usb drive
 2. Installing KMK
     1. Download the [KMK zip folder](https://github.com/KMKfw/kmk_firmware/archive/refs/heads/main.zip)
     2. Unzip it
-    3. Copy the KMK folder and the doot.py file to the root of the microcontroller's usb drive
+    3. Copy the KMK folder and the boot.py file to the root of the microcontroller's usb drive
     4. Reset the microcontroller by pressing the RESET button
 3. Installing the custom Code
     1. Download the [Cw2Usb](https://github.com/samux6146/Cw2Usb) repository
